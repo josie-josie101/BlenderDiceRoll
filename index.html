@@ -31,8 +31,20 @@
         }
 
         #buttonContainer img {
-            width: 70px;
-            height: 70px;
+            width: clamp(40px, 6vw, 80px);
+            height: clamp(40px, 6vw, 80px);
+        }
+
+        #buttonContainer {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: clamp(6px, 1.2vw, 12px);
+            z-index: 10;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     </style>
 </head>
