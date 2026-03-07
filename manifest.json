@@ -1,7 +1,7 @@
 {
   "name": "Blender Dice Roll",
   "short_name": "Dice",
-  "start_url": "pwa.html",
+  "start_url": "./pwa.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
@@ -17,4 +17,5 @@
       "type": "image/png"
     }
   ]
+
 }
